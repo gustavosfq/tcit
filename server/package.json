@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www -L",
+    "start": "npm run migrate && nodemon ./bin/www -L",
     "migrate": "npx sequelize-cli db:migrate"
   },
   "dependencies": {
