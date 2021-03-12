@@ -5,7 +5,7 @@ module.exports = (sequelize, DataTypes) => {
     Post.init(
         {
             name: DataTypes.STRING,
-            description: DataTypes.STRING,
+            description: DataTypes.TEXT,
         },
         {
             sequelize,
