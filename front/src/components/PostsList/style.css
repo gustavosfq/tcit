@@ -1,0 +1,18 @@
+.post {
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+}
+
+.post.header {
+    background: grey;
+    font-weight: bold;
+}
+
+.post:nth-child(2n+3) {
+    background: #CCC
+}
+
+.post .columns {
+    padding: 10px;
+}
